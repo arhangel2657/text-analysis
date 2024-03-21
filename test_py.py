@@ -3,10 +3,8 @@ file_data = file.read()
 file.close()
 
 out = {}
-
 def Add_to_out(key, value):
     out[key] = value
-
 def Culculate_symbol(symbol):
     num_of_symbols = 0
     for s in file_data:
