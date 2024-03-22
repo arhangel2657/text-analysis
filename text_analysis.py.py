@@ -1,5 +1,5 @@
 file = open("text_for_analysis.txt", "r")
-file_data = file.read()
+file_data = file.read().lower()
 file.close()
 
 out = {}
