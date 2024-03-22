@@ -4,6 +4,8 @@ file.close()
 
 Out = {}
 
+text = 'Life, believe, is not a dream.So dark as sages say.Oft a little morning rain.Foretells a pleasant day.'
+
 
 def add_to_out(key, value):
     Out[key] = value
@@ -25,7 +27,7 @@ for i in file_data:
         add_to_out(file_data[Symbol_number].upper(), file_data.count(Symbol))
     Symbol_number += 1
 
-add_to_out("lines", len(file_data.split(".")))
+add_to_out("lines", file_data.count('.'))
 add_to_out("words", len(file_data.split()))
 add_to_out("symbols", len(file_data))
 
