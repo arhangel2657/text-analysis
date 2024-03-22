@@ -14,7 +14,7 @@ def culculate_symbol(symbol):
             num_of_symbols += 1
     return num_of_symbols
 
-# add_to_out("lines", )
+add_to_out("lines", len(file_data.split(".")))
 add_to_out("words", len(file_data.split(" ")))
 add_to_out("symbols", len(file_data))
 
