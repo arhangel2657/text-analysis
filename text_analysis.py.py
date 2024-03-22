@@ -13,7 +13,7 @@ def culculate_symbol(symbol):
             num_of_symbols += 1
     return num_of_symbols
 
-num =0
+num = 0
 sym = ""
 for i in file_data:
     sym = file_data[num]
@@ -22,7 +22,7 @@ for i in file_data:
     num += 1
 
 add_to_out("lines", len(file_data.split(".")))
-add_to_out("words", len(file_data.split(" ")))
+add_to_out("words", len(file_data.split()))
 add_to_out("symbols", len(file_data))
 
 print(out)
