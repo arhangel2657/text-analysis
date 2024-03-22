@@ -18,7 +18,6 @@ def culculate_symbol(symbol):
 
 
 Symbol_number = 0
-Symbol = ""
 for i in file_data:
     Symbol = file_data[Symbol_number]
     if Symbol.isalpha():
