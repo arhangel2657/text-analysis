@@ -4,8 +4,6 @@ file.close()
 
 Out = {}
 
-text = 'Life, believe, is not a dream.So dark as sages say.Oft a little morning rain.Foretells a pleasant day.'
-
 
 def add_to_out(key, value):
     Out[key] = value
